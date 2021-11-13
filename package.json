@@ -1,0 +1,30 @@
+{
+  "name": "public-deneme-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "node index.js",
+    "b": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.2.0",
+    "discordjs-button-pagination": "^1.0.7",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "proton-io": "^0.1.5",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2",
+    "superagent": "^6.1.0",
+    "wio.db": "^4.0.21"
+  }
+}
